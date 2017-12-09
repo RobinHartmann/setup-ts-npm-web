@@ -2,26 +2,30 @@
 
 A project setup for the creation of web apps using Typescript and npm packages.
 
-## Prerequisites
+## Getting Started
 
-### Software
+These instructions will get you a copy of the project up and running on your local machine.
+
+### Prerequisites
+
+#### Software
 
 * [Node.js](https://nodejs.org/en/download/) - A JavaScript run-time environment
 
-### Packages
+#### Global npm packages
+
+* [gulp.js](https://gulpjs.com/) - The streaming build system for Node.js
 
 ```node
 npm install --global gulp-cli
 ```
 
-### VS Code extensions
+#### VS Code Extensions
 
 This project is intended to be used with Visual Studio Code and the following extensions are recommended:
 
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) - TSLint for Visual Studio Code
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code
-
-## Getting it running
 
 ### Installing
 
@@ -29,53 +33,62 @@ This project is intended to be used with Visual Studio Code and the following ex
 npm install
 ```
 
-### Linting
+## Linting
 
-#### TypeScript
+### TypeScript
 
 ```node
 gulp lint:ts
 ```
 
-#### JavaScript
+### JavaScript
 
 ```node
 gulp lint:es
 ```
 
-#### Both
+### TypeScript and JavaScript
 
 ```node
 gulp lint
 ```
 
-### Building
+## Building
 
-#### One-time
+### One-time
 
 ```node
 gulp build
 ```
 
-#### Watch for changes
+### Watch for changes
 
 ```node
 gulp watch
 ```
 
-### Tricks
+## More Commands
 
-#### Open in browser
+### Open in browser
 
 ```node
 gulp serve
 ```
 
-#### Watch for changes and open in browser
+### Watch for changes and open in browser
 
 ```node
 gulp default
 ```
+
+## Built With
+
+* [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
+* [TSLint](https://palantir.github.io/tslint/) - An extensible linter for the TypeScript language
+* [ESLint](https://eslint.org/) - The pluggable linting utility for JavaScript and JSX
+* [gulp.js](https://gulpjs.com/) - The streaming build system for Node.js
+* [browserify](http://browserify.org/) - Lets you `require('modules')` in the browser by bundling up all of your dependencies
+* [watchify](https://github.com/browserify/watchify) - Watch mode for browserify builds
 
 ## Authors
 
