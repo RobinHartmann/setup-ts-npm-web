@@ -1,6 +1,6 @@
 # setup-ts-npm-web
 
-A project setup for the creation of web apps using Typescript and npm packages.
+A project setup for the creation of web apps using Typescript and npm packages
 
 ## Getting Started
 
