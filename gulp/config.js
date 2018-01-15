@@ -17,7 +17,8 @@ const config = {
 };
 
 config.globs = {
-  compileables: `${config.paths.source}/**/*.{ts,js}`,
+  compileables: `${config.paths.source}/**/*.{ts,d.ts,js}`,
+  lintables_ts: `${config.paths.source}/**/*.{ts,d.ts}`,
 };
 
 module.exports = config;

@@ -1,17 +1,26 @@
 'use strict';
 
+const config = require('./config');
 const gulp = require('gulp');
-const shell = require('gulp-shell');
+const gulpEslint = require('gulp-eslint');
+const gulpTslint = require('gulp-tslint');
+const tslint = require('tslint');
 
-const tsBinPath = '".\\node_modules\\.bin\\tslint"';
-const tsConfigPath = 'tslint.json';
-const tsProjectPath = 'tsconfig.json';
-const tsCommand = `${tsBinPath} -c ${tsConfigPath} -p ${tsProjectPath}`;
+gulp.task('lint:es', () =>
+  gulp.src('**/*.js')
+    .pipe(gulpEslint())
+    .pipe(gulpEslint.format())
+    .pipe(gulpEslint.failAfterError()));
 
-const esBinPath = '".\\node_modules\\.bin\\eslint"';
-const esConfigPath = '".\\.eslintrc.json"';
-const esCommand = `${esBinPath} -c ${esConfigPath} .`;
+gulp.task('lint:ts', () => {
+  const program = tslint.Linter.createProgram('./tsconfig.json');
 
-gulp.task('lint:ts', shell.task(tsCommand));
-gulp.task('lint:es', shell.task(esCommand));
+  return gulp.src(config.globs.lintables_ts)
+    .pipe(gulpTslint({
+      formatter: 'stylish',
+      program,
+    }))
+    .pipe(gulpTslint.report());
+});
+
 gulp.task('lint', ['lint:ts', 'lint:es']);
