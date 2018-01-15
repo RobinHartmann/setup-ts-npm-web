@@ -67,7 +67,7 @@ gulp build
 gulp watch
 ```
 
-## More Commands
+## Additional Commands
 
 ### Open in browser
 
