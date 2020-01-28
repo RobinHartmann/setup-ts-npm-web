@@ -1,6 +1,6 @@
 # setup-ts-npm-web
 
-A project setup for the creation of web apps using Typescript and npm packages
+A project template for the creation of web apps using Typescript and npm packages
 
 ## Getting Started
 
@@ -92,7 +92,7 @@ gulp default
 
 ## Authors
 
-* **Robin Hartmann** - *Initial work* - [robin-hartmann](https://github.com/robin-hartmann)
+* **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
 
 ## License
 
