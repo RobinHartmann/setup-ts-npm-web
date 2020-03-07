@@ -1,5 +1,5 @@
 {
-  "name": "template-ts-web-npm",
+  "name": "template-web-ts-npm",
   "version": "0.1.0",
   "description": "Project Template for creating Web Apps with Typescript and npm Packages",
   "scripts": {
