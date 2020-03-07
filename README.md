@@ -1,6 +1,6 @@
 # template-ts-npm-web
 
-A project template for the creation of web apps using Typescript and npm packages
+Project Template for creating Web Apps with Typescript and npm Packages
 
 ## Getting Started
 
