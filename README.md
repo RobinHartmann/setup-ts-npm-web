@@ -1,12 +1,12 @@
-# template-web-ts-npm
+# 📄 template-web-ts-npm
 
 Project Template for creating Web Apps with Typescript and npm Packages
 
-## Getting Started
+## 🛠️ Development
 
-These instructions will get you a copy of the project up and running on your local machine.
+These instructions will get you a copy of this project up and running on your local machine for development and testing purposes.
 
-### Prerequisites
+### 📋 Prerequisites
 
 #### Software
 
@@ -16,7 +16,7 @@ These instructions will get you a copy of the project up and running on your loc
 
 * [gulp.js](https://gulpjs.com/) - The streaming build system for Node.js
 
-```node
+```bash
 npm install --global gulp-cli
 ```
 
@@ -27,61 +27,36 @@ This project is intended to be used with Visual Studio Code and the following ex
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) - TSLint for Visual Studio Code
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code
 
-### Installing
+### 🚀 Built-in Tasks
 
-```node
+This project uses npm scripts for running tasks:
+
+```bash
+# install all dependencies
 npm install
-```
 
-## Linting
-
-### TypeScript
-
-```node
+## lint the project
+# all TypeScript code
 gulp lint:ts
-```
-
-### JavaScript
-
-```node
+# all JavaScript code
 gulp lint:es
-```
-
-### TypeScript and JavaScript
-
-```node
+# both all TypeScript and JavaScript code
 gulp lint
-```
 
-## Building
-
-### One-time
-
-```node
+## build the project
+# only once
 gulp build
-```
-
-### Watch for changes
-
-```node
+# on each change
 gulp watch
-```
 
-## Additional Commands
-
-### Open in browser
-
-```node
+## open output in browser
+# only once
 gulp serve
-```
-
-### Watch for changes and open in browser
-
-```node
+# on each change
 gulp default
 ```
 
-## Built With
+## 🔧 Built With
 
 * [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 * [TSLint](https://palantir.github.io/tslint/) - An extensible linter for the TypeScript language
@@ -90,10 +65,10 @@ gulp default
 * [browserify](http://browserify.org/) - Lets you `require('modules')` in the browser by bundling up all of your dependencies
 * [watchify](https://github.com/browserify/watchify) - Watch mode for browserify builds
 
-## Authors
+## 👨‍💻 Authors
 
 * **Robin Hartmann** - [robin-hartmann](https://github.com/robin-hartmann)
 
-## License
+## 📃 License
 
 This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
