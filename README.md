@@ -56,6 +56,8 @@ gulp serve
 gulp default
 ```
 
+VS Code tasks are also included for `gulp compile` and `gulp default`.
+
 ## 🔧 Built With
 
 * [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
