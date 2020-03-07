@@ -1,4 +1,4 @@
-# setup-ts-npm-web
+# template-ts-npm-web
 
 A project template for the creation of web apps using Typescript and npm packages
 
