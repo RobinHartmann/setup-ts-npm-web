@@ -58,7 +58,7 @@ gulp default
 
 VS Code tasks are also included for `gulp compile` and `gulp default`.
 
-## 🔧 Built With
+## 🧰 Built With
 
 * [TypeScript](https://www.typescriptlang.org/) - A typed superset of JavaScript that compiles to plain JavaScript
 * [TSLint](https://palantir.github.io/tslint/) - An extensible linter for the TypeScript language
