@@ -27,7 +27,7 @@ This project is intended to be used with Visual Studio Code and the following ex
 * [TSLint](https://marketplace.visualstudio.com/items?itemName=eg2.tslint) - TSLint for Visual Studio Code
 * [ESLint](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint) - Integrates ESLint into VS Code
 
-### 🚀 Built-in Tasks
+### 🚀 Getting Started
 
 This project uses npm scripts for running tasks:
 
